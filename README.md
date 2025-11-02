@@ -10,7 +10,7 @@ HungryUI is a playful, developer-friendly CSS framework serving up elegant and e
 ![Github](https://img.shields.io/github/contributors/allencasul/hungryui?color=%234a4df5)
 ![Github](https://img.shields.io/github/stars/allencasul/hungryui)
 
-<a href="https://hungryui.com/"><img src="#" alt="#" style="max-width:100%;" width="600"></a>
+<!-- <a href="https://hungryui.com/"><img src="#" alt="HungryUI" style="max-width:100%;" width="600"></a> -->
 
 ## Installation
 
@@ -29,4 +29,5 @@ Full documentation: [Click here.](https://hungryui.com/)
 ## Licensing
 
 Copyright Holder: Allen Charls Casul. The source code is licensed under [the MIT license](https://github.com/allencasul/hungryui/blob/main/LICENSE).
+
 
