@@ -1,4 +1,4 @@
-# [HungryUI Framework](https://hungryui.com)
+# [Hungry UI Framework](https://hungryui.com)
 
 Hungry UI brings elegance and expression to your toolkit. Its playful, developer‑friendly components make every interface—from simple pages to complex apps—look deliciously refined.
 
