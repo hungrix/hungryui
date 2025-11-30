@@ -1,6 +1,6 @@
 # [HungryUI Framework](https://hungryui.com)
 
-HungryUI brings elegance and expression to your toolkit. Its playful, developer‑friendly components make every interface—from simple pages to complex apps—look deliciously refined.
+Hungry UI brings elegance and expression to your toolkit. Its playful, developer‑friendly components make every interface—from simple pages to complex apps—look deliciously refined.
 
 ![NPM](https://img.shields.io/npm/v/hungryui?color=e60914)
 ![NPM](https://img.shields.io/npm/dw/hungryui?color=%23ef3e36)
