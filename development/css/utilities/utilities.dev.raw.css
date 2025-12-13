@@ -142,7 +142,7 @@
 }
 
 .__ripple:active::after {
-  animation: ripple 0.6s ease-out;
+  animation: ripple 0.4s ease-out;
 }
 
 @keyframes ripple {
@@ -307,7 +307,7 @@
 .__button-small:active::after,
 .__button-medium:active::after,
 .__button-large:active::after {
-  animation: ripple 0.64s ease-out;
+  animation: ripple 0.4s ease-out;
 }
 
 .__button-small {

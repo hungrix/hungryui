@@ -13,8 +13,10 @@
   font-variant: normal;
   font-optical-sizing: auto;
   font-size-adjust: 100%;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
+  letter-spacing: normal;
+  word-spacing: 0.0344rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -353,7 +355,7 @@ input[type='submit']::after {
 
 button:active::after,
 input[type='submit']:active::after {
-  animation: ripple 0.64s ease-out;
+  animation: ripple 0.4s ease-out;
 }
 
 table {
