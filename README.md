@@ -10,7 +10,7 @@ Hungry UI adds elegance and personality to your toolkit. Its playful, developerâ
 ![Github](https://img.shields.io/github/contributors/allencasul/hungryui?color=%234a4df5)
 ![Github](https://img.shields.io/github/stars/allencasul/hungryui)
 
-<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/allencasul/hungryui-official-website@master/assets/img/png/hungryui.png" alt="Hungry UI" style="max-width:100%;" width="600"></a>
+<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/hungrix/hungryui-official-website@master/assets/img/png/hungryui.png" alt="Hungry UI" style="max-width:100%;" width="600"></a>
 
 ## Installation
 
@@ -24,8 +24,9 @@ npm i hungryui@latest
 
 ## Documentation
 
-Full documentation: [Click here.](https://hungryui.com/)
+Full documentation: [Click here.](https://github.com/hungrix/hungryui)
 
 ## Licensing
 
 Copyright Holder: Allen Charls Casul. The source code is licensed under [the MIT license](https://github.com/allencasul/hungryui/blob/main/LICENSE).
+
