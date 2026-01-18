@@ -1,6 +1,6 @@
-# [HungryUI Framework](https://roovenframework.com)
+# [Hungry UI Framework](https://github.com/hungrix/hungryui)
 
-HungryUI brings elegance and expression to your toolkit. Its playful, developer‑friendly components make every interface—from simple pages to complex apps—look deliciously refined.
+Hungry UI adds elegance and personality to your toolkit. Its playful, developer‑friendly components make everything from simple pages to complex apps look polished and refined.
 
 ![NPM](https://img.shields.io/npm/v/hungryui?color=e60914)
 ![NPM](https://img.shields.io/npm/dw/hungryui?color=%23ef3e36)
@@ -10,11 +10,11 @@ HungryUI brings elegance and expression to your toolkit. Its playful, developer�
 ![Github](https://img.shields.io/github/contributors/allencasul/hungryui?color=%234a4df5)
 ![Github](https://img.shields.io/github/stars/allencasul/hungryui)
 
-<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/allencasul/hungryui-official-website@master/assets/img/png/hungryui.png" alt="HungryUI" style="max-width:100%;" width="600"></a>
+<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/allencasul/hungryui-official-website@master/assets/img/png/hungryui.png" alt="Hungry UI" style="max-width:100%;" width="600"></a>
 
 ## Installation
 
-Installing HungryUI using NPM (Node Package Manager).
+Installing Hungry UI using NPM (Node Package Manager).
 
 ### NPM
 
