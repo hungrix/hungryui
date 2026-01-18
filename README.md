@@ -29,5 +29,3 @@ Full documentation: [Click here.](https://github.com/hungrix/hungryui)
 ## Licensing
 
 Copyright Holder: Allen Charls Casul. The source code is licensed under [the MIT license](https://github.com/hungrix/hungryui/blob/main/LICENSE).
-
-
