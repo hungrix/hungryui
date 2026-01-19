@@ -1,11 +1,11 @@
 {
   "name": "hungryui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Hungry UI is a playful, developer-friendly CSS framework serving up elegant and expressive UI components. Whether you're crafting a juicy landing page or a full-featured web app, Hungry UI lets you build fast—without skipping the flavor.",
   "main": "hungryui.dev.raw.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allencasul/hungryui.git"
+    "url": "git+https://github.com/hungrix/hungryui.git"
   },
   "keywords": [
     "hungryui",
@@ -22,7 +22,7 @@
   "author": "Allen Charls Casul",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allencasul/hungryui/issues"
+    "url": "https://github.com/hungrix/hungryui/issues"
   },
-  "homepage": "https://github.com/allencasul/hungryui#readme"
+  "homepage": "https://github.com/hungrix/hungryui#readme"
 }
