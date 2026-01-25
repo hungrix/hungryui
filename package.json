@@ -1,6 +1,6 @@
 {
   "name": "hungryui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hungry UI is a playful, developer-friendly CSS framework serving up elegant and expressive UI components. Whether you're crafting a juicy landing page or a full-featured web app, Hungry UI lets you build fast—without skipping the flavor.",
   "main": "dist/production/css/hungryui.prod.min.css",
   "repository": {

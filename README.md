@@ -19,7 +19,7 @@ Installing Hungry UI using NPM (Node Package Manager).
 ### NPM
 
 ```sh
-npm i hungryui@0.0.7
+npm i hungryui@1.0.1
 ```
 
 ## Documentation
