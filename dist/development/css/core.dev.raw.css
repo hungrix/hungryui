@@ -1,0 +1,37 @@
+/* VARIABLES: Core design tokens for consistent theming                           */
+/* 1. appearance.dev.raw.css → Color palettes, adaptive schemes, theme variables. */
+/* 2. icon.dev.raw.css       → Icon sizing, alignment, reusable icon tokens.      */
+/* 3. typography.dev.raw.css → Font families, scales, text hierarchy rules.       */
+/* 4. shadow.dev.raw.css     → Elevation presets, depth, shadow tokens.           */
+/* 5. radius.dev.raw.css     → Border radius presets for consistent rounding.     */
+@import 'variables/appearance.dev.raw.css';
+@import 'variables/icon.dev.raw.css';
+@import 'variables/typography.dev.raw.css';
+@import 'variables/shadow.dev.raw.css';
+@import 'variables/radius.dev.raw.css';
+
+/* UTILITIES: Reusable helpers for layout, spacing, typography, and more.         */
+/* 6. animations.utils.dev.raw.css  → Motion presets and keyframes.               */
+/* 7. appearance.utils.dev.raw.css  → Visual tweaks and adaptive themes.          */
+/* 8. borders.utils.dev.raw.css     → Border styles and widths.                   */
+/* 9. components.utils.dev.raw.css  → Prebuilt utilities for buttons, cards, etc. */
+/* 10. cursor.utils.dev.raw.css     → Cursor styles and pointer helpers.          */
+/* 11. dimensions.utils.dev.raw.css → Width, height, and sizing utilities.        */
+/* 12. global.utils.dev.raw.css     → Base resets and framework-wide helpers.     */
+/* 13. layout.utils.dev.raw.css     → Flexbox, grid, and structural layouts.      */
+/* 14. position.utils.dev.raw.css   → Positioning helpers (absolute, relative…).  */
+/* 15. spacing.utils.dev.raw.css    → Margin, padding, and gap utilities.         */
+/* 16. transforms.utils.dev.raw.css → Scale, rotate, skew, transform utilities.   */
+/* 17. typography.utils.dev.raw.css → Text alignment, weight, size, responsive.   */
+@import 'utilities/animations.utils.dev.raw.css';
+@import 'utilities/appearance.utils.dev.raw.css';
+@import 'utilities/borders.utils.dev.raw.css';
+@import 'utilities/components.utils.dev.raw.css';
+@import 'utilities/cursor.utils.dev.raw.css';
+@import 'utilities/dimensions.utils.dev.raw.css';
+@import 'utilities/global.utils.dev.raw.css';
+@import 'utilities/layout.utils.dev.raw.css';
+@import 'utilities/position.utils.dev.raw.css';
+@import 'utilities/spacing.utils.dev.raw.css';
+@import 'utilities/transforms.utils.dev.raw.css';
+@import 'utilities/typography.utils.dev.raw.css';

@@ -1,0 +1,147 @@
+:root {
+  /* This represents the default color scheme. */
+  --primary:              #ef3e36;
+  --primary-variant:      #d7372c;
+  --primary-fade:         #ef3f3681;
+  --primary-translucent:  #ef3f363f;
+  --info:                 #0f9af0;
+  --success:              #00aa74;
+  --warning:              #ffa552;
+  --danger:               #d62828;
+  --toast:                #2d2d2d;
+  --online:               #02d144;
+  --offline:              #dbdbdb;
+  --transparent:          #00000000;
+  --overlay:              #040404a1;
+  --love:                 #ed4d62;
+  --loyalty:              #0d6be6;
+  --voltura:              #4a4df5;
+  --crimson:              #e60914;
+  --white:                #ffffff;
+  --black:                #000000;
+  --gray:                 #808080;
+  --lightgray:            #d3d3d3;
+  --darkgray:             #a9a9a9;
+  --red:                  #ff0000;
+  --orange:               #ffa500;
+  --blue:                 #0000ff;
+  --yellow:               #ffff00;
+  --violet:               #8a2be2;
+  --skyblue:              #87ceeb;
+  --blueviolet:           #8a2be2;
+  --darkorange:           #ff8c00;
+  --purple:               #800080;
+  --brown:                #a52a2a;
+  --green:                #008000;
+  --darkgreen:            #006400;
+  --cyan:                 #00ffff;
+  --teal:                 #008080;
+  --aliceblue:            #f0f8ff;
+  --coral:                #ff7f50;
+  --aquamarine:           #7fffd4;
+  --fuchsia:              #ff00ff;
+  --antiquewhite:         #faebd7;
+  --beige:                #f5f5dc;
+  --azure:                #f0ffff;
+  --blanchedalmond:       #ffebcd;
+  --burlywood:            #deb887;
+  --cadetblue:            #5f9ea0;
+  --chartreuse:           #7fff00;
+  --chocolate:            #d2691e;
+  --cornflowerblue:       #6495ed;
+  --cornsilk:             #fff8dc;
+  --darkblue:             #00008b;
+  --darkcyan:             #008b8b;
+  --darkgoldenrod:        #b8860b;
+  --pink:                 #ffc0cb;
+  --salmon:               #fa8072;
+  --darksalmon:           #e9967a;
+  --deepskyblue:          #00bfff;
+  --deeppink:             #ff1493;
+  --darkviolet:           #9400d3;
+  --darkred:              #8b0000;
+  --floralwhite:          #fffaf0;
+  --greenyellow:          #adff2f;
+  --gold:                 #ffd700;
+  --yellowgreen:          #9acd32;
+  --turquoise:            #40e0d0;
+  --tomato:               #ff6347;
+  --whitesmoke:           #f5f5f5;
+  --wheat:                #f5deb3;
+  
+  /* Enables a light-themed visual style for the interface */
+  --default-light:         #f5f5f5;
+  --card-light:            #ffffff;
+  --heading-light:         #001b3b;
+  --title-light:           #131313;
+  --subtitle-light:        #4b4b4b;
+  --description-light:     #2f2f2f;
+  --placeholder-light:     #777777;
+  --border-light:          #e5e5e5;
+  --hover-light:           #d8d8d8;
+  --receiver-light:        #ededed;
+  --icon-light:            #2c2c2c;
+  --disabled-light:        #e2e2e2;
+  --skeleton-light:        #d8d8d8;
+  --skeleton-loader-light: #e7e7e7;
+  --ripple-light:          #00000033;
+
+  /* Enables a dark-themed visual style for the interface */
+  --default-dark:         #090b0e;
+  --card-dark:            #1a1d23;
+  --heading-dark:         #e6e6e6;
+  --title-dark:           #f7f6f6;
+  --subtitle-dark:        #e4e4e4;
+  --description-dark:     #c4c4c4;
+  --placeholder-dark:     #6e6e6e;
+  --border-dark:          #23232e;
+  --hover-dark:           #171a1f;
+  --receiver-dark:        #181b20;
+  --icon-dark:            #f2f2f2;
+  --disabled-dark:        #17181d;
+  --skeleton-dark:        #1b1c22;
+  --skeleton-loader-dark: #23262b;
+  --ripple-dark:          #9eb2d926;
+}
+
+/* This will only apply when the user chooses a light color scheme. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --default-adaptive:         #f5f5f5;
+    --card-adaptive:            #ffffff;
+    --heading-adaptive:         #001b3b;
+    --title-adaptive:           #131313;
+    --subtitle-adaptive:        #4b4b4b;
+    --description-adaptive:     #2f2f2f;
+    --placeholder-adaptive:     #777777;
+    --border-adaptive:          #e5e5e5;
+    --hover-adaptive:           #d8d8d8;
+    --receiver-adaptive:        #ededed;
+    --icon-adaptive:            #2c2c2c;
+    --disabled-adaptive:        #e2e2e2;
+    --skeleton-adaptive:        #d8d8d8;
+    --skeleton-loader-adaptive: #e7e7e7;
+    --ripple-adaptive:          #00000033;
+  }
+}
+
+/* This will only apply when the user chooses a dark color scheme. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --default-adaptive:         #090b0e;
+    --card-adaptive:            #1c2026;
+    --heading-adaptive:         #e6e6e6;
+    --title-adaptive:           #f7f6f6;
+    --subtitle-adaptive:        #e4e4e4;
+    --description-adaptive:     #c4c4c4;
+    --placeholder-adaptive:     #6e6e6e;
+    --border-adaptive:          #23232e;
+    --hover-adaptive:           #24252f;
+    --receiver-adaptive:        #181b20;
+    --icon-adaptive:            #f2f2f2;
+    --disabled-adaptive:        #17181d;
+    --skeleton-adaptive:        #272832;
+    --skeleton-loader-adaptive: #2d3137;
+    --ripple-adaptive:          #9eb2d926;
+  }
+}

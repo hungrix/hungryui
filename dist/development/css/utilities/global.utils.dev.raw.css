@@ -1,0 +1,35 @@
+.text-italic       { font-style:      italic;       }
+.text-normal       { font-style:      normal;       }
+
+.text-underline    { text-decoration: underline;    }
+.text-line-through { text-decoration: line-through; }
+.text-no-underline { text-decoration: none;         }
+
+.text-uppercase    { text-transform:  uppercase;    }
+.text-lowercase    { text-transform:  lowercase;    }
+.text-capitalize   { text-transform:  capitalize;   }
+.text-normalcase   { text-transform:  none;         }
+
+.text-align-left    { text-align: left;    }
+.text-align-right   { text-align: right;   }
+.text-align-center  { text-align: center;  }
+.text-align-justify { text-align: justify; }
+.text-align-start   { text-align: start;   }
+.text-align-end     { text-align: end;     }
+
+.bg-size-cover   { background-size: cover;   }
+.bg-size-contain { background-size: contain; }
+.bg-size-auto    { background-size: auto;    }
+
+.bg-pos-center { background-position: center; }
+.bg-pos-top    { background-position: top;    }
+.bg-pos-bottom { background-position: bottom; }
+.bg-pos-left   { background-position: left;   }
+.bg-pos-right  { background-position: right;  }
+
+.bg-repeat    { background-repeat: repeat;    }
+.bg-no-repeat { background-repeat: no-repeat; }
+.bg-repeat-x  { background-repeat: repeat-x;  }
+.bg-repeat-y  { background-repeat: repeat-y;  }
+.bg-round     { background-repeat: round;     }
+.bg-space     { background-repeat: space;     }
