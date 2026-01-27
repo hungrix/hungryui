@@ -252,6 +252,21 @@
 .bottom-nav-shadow-primary   { box-shadow: var(--bottom-nav-shadow-primary);   }
 .bottom-nav-shadow-secondary { box-shadow: var(--bottom-nav-shadow-secondary); }
 
+.color-scheme-light-dark { color-scheme: light dark; }
+.color-scheme-light      { color-scheme: light;      }
+.color-scheme-dark       { color-scheme: dark;       }
+
+.blur-10  { background-color: var(--transparent); backdrop-filter: blur(10px);  -webkit-backdrop-filter: blur(10px);  }
+.blur-20  { background-color: var(--transparent); backdrop-filter: blur(20px);  -webkit-backdrop-filter: blur(20px);  }
+.blur-30  { background-color: var(--transparent); backdrop-filter: blur(30px);  -webkit-backdrop-filter: blur(30px);  }
+.blur-40  { background-color: var(--transparent); backdrop-filter: blur(40px);  -webkit-backdrop-filter: blur(40px);  }
+.blur-50  { background-color: var(--transparent); backdrop-filter: blur(50px);  -webkit-backdrop-filter: blur(50px);  }
+.blur-60  { background-color: var(--transparent); backdrop-filter: blur(60px);  -webkit-backdrop-filter: blur(60px);  }
+.blur-70  { background-color: var(--transparent); backdrop-filter: blur(70px);  -webkit-backdrop-filter: blur(70px);  }
+.blur-80  { background-color: var(--transparent); backdrop-filter: blur(80px);  -webkit-backdrop-filter: blur(80px);  }
+.blur-90  { background-color: var(--transparent); backdrop-filter: blur(90px);  -webkit-backdrop-filter: blur(90px);  }
+.blur-100 { background-color: var(--transparent); backdrop-filter: blur(100px); -webkit-backdrop-filter: blur(100px); }
+
 @media (prefers-color: light) {
   .gradient-primary {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ffffff00), color-stop(38%, #ffffff), color-stop(95%, #ffffff));

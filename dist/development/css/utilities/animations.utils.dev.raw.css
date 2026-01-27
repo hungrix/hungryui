@@ -101,16 +101,6 @@
   to   { opacity: 1; }
 }
 
-.hover-animated {
-  transition: background-color 200ms ease, transform 150ms ease-out;
-  will-change: background-color, transform;
-}
-.hover-animated:hover {
-  background-color: var(--hover-adaptive);
-  cursor: pointer;
-  transform: translateZ(0) scale(1.02);
-}
-
 .hover {
   transition: background-color 0.3s ease;
 }
@@ -119,6 +109,101 @@
   background-color: var(--hover-adaptive);
   cursor: pointer;
 }
+
+.hover-scale {
+  transition: background-color 200ms ease, transform 150ms ease-out;
+  will-change: background-color, transform;
+}
+.hover-scale:hover {
+  cursor: pointer;
+  transform: translateZ(0) scale(1.02);
+}
+
+.hover-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-shimmer::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  transform: rotate(5deg) translateX(-100%);
+  transition: transform 0.7s ease;
+  pointer-events: none;
+}
+
+.hover-shimmer:hover::before {
+  transform: rotate(5deg) translateX(100%);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    190deg,
+    var(--title-adaptive),
+    var(--primary-fade) 50%,
+    var(--primary) 100%
+  );
+  background-size: 100% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-animated {
+  background: linear-gradient(
+    190deg,
+    var(--primary),
+    var(--title-adaptive),
+    var(--primary-fade)
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: gradientSlide 3.5s linear infinite;
+}
+
+@keyframes gradientSlide {
+  0%   { background-position: 0% 50%;   }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%;   }
+}
+
+.trans-300-ease            { transition: all 0.3s ease;              }
+.trans-500-ease            { transition: all 0.5s ease;              }
+.trans-1000-ease           { transition: all 1s ease;                }
+
+.trans-transform-300-ease  { transition: transform 0.3s ease;        }
+.trans-transform-500-ease  { transition: transform 0.5s ease;        }
+.trans-transform-700-ease  { transition: transform 0.7s ease;        }
+.trans-transform-1000-ease { transition: transform 1s ease;          }
+
+.trans-opacity-300-ease    { transition: opacity 0.3s ease;          }
+.trans-opacity-500-ease    { transition: opacity 0.5s ease;          }
+.trans-opacity-700-ease    { transition: opacity 0.7s ease;          }
+.trans-opacity-1000-ease   { transition: opacity 1s ease;            }
+
+.trans-color-300-ease      { transition: color 0.3s ease;            }
+.trans-color-500-ease      { transition: color 0.5s ease;            }
+.trans-color-700-ease      { transition: color 0.7s ease;            }
+.trans-color-1000-ease     { transition: color 1s ease;              }
+ 
+.trans-bg-300-ease         { transition: background-color 0.3s ease; }
+.trans-bg-500-ease         { transition: background-color 0.5s ease; }
+.trans-bg-700-ease         { transition: background-color 0.7s ease; }
+.trans-bg-1000-ease        { transition: background-color 1s ease;   }
 
 .animate-accordion-icon { transition: transform 0.3s ease; }
 

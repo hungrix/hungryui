@@ -251,7 +251,7 @@
 .inset-x-0 { left: 0; right: 0; }
 .inset-y-0 { top: 0; bottom: 0; }
 
-.display-block        { display: block;        }
-.display-inline       { display: inline;       }
-.display-inline-block { display: inline-block; }
-.display-none         { display: none;         }
+.d-block        { display: block;        }
+.d-inline       { display: inline;       }
+.d-inline-block { display: inline-block; }
+.d-none         { display: none;         }

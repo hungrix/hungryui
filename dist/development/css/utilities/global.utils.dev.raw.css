@@ -15,17 +15,17 @@
 .truncate-90  { max-width: 90ch;  }
 .truncate-100 { max-width: 100ch; }
 
-.text-italic       { font-style:      italic;       }
-.text-normal       { font-style:      normal;       }
+.text-italic       { font-style: italic; }
+.text-normal       { font-style: normal; }
 
 .text-underline    { text-decoration: underline;    }
 .text-line-through { text-decoration: line-through; }
 .text-no-underline { text-decoration: none;         }
 
-.text-uppercase    { text-transform:  uppercase;    }
-.text-lowercase    { text-transform:  lowercase;    }
-.text-capitalize   { text-transform:  capitalize;   }
-.text-normalcase   { text-transform:  none;         }
+.text-uppercase  { text-transform: uppercase;  }
+.text-lowercase  { text-transform: lowercase;  }
+.text-capitalize { text-transform: capitalize; }
+.text-normalcase { text-transform: none;       }
 
 .text-align-left    { text-align: left;    }
 .text-align-right   { text-align: right;   }
@@ -37,21 +37,28 @@
 .text-overflow-ellipsis { text-overflow: ellipsis; }
 .text-overflow-clip     { text-overflow: clip;     }
 
-.white-space-normal    { white-space: normal;    }
-.white-space-nowrap    { white-space: nowrap;    }
-.white-space-pre       { white-space: pre;       }
-.white-space-pre-line  { white-space: pre-line;  }
-.white-space-pre-wrap  { white-space: pre-wrap;  }
+.white-space-normal   { white-space: normal;   }
+.white-space-nowrap   { white-space: nowrap;   }
+.white-space-pre      { white-space: pre;      }
+.white-space-pre-line { white-space: pre-line; }
+.white-space-pre-wrap { white-space: pre-wrap; }
 
-.bg-size-cover   { background-size: cover;   }
-.bg-size-contain { background-size: contain; }
-.bg-size-auto    { background-size: auto;    }
+.bg-size-auto         { background-size: auto;      }
+.bg-size-cover        { background-size: cover;     }
+.bg-size-contain      { background-size: contain;   }
+.bg-size-10-pct-auto  { background-size: 10% auto;  }
+.bg-size-25-pct-auto  { background-size: 25% auto;  }
+.bg-size-50-pct-auto  { background-size: 50% auto;  }
+.bg-size-100-pct-auto { background-size: 100% auto; }
+.bg-size-150-pct-auto { background-size: 150% auto; }
+.bg-size-200-pct-auto { background-size: 200% auto; }
+.bg-size-300-pct-auto { background-size: 300% auto; }
+.bg-size-400-pct-auto { background-size: 400% auto; }
 
-.bg-pos-center { background-position: center; }
-.bg-pos-top    { background-position: top;    }
-.bg-pos-bottom { background-position: bottom; }
-.bg-pos-left   { background-position: left;   }
-.bg-pos-right  { background-position: right;  }
+.bg-clip-border  { background-clip: border-box;  }
+.bg-clip-padding { background-clip: padding-box; }
+.bg-clip-content { background-clip: content-box; }
+.bg-clip-text    { background-clip: text;        }
 
 .bg-repeat    { background-repeat: repeat;    }
 .bg-no-repeat { background-repeat: no-repeat; }
@@ -59,3 +66,13 @@
 .bg-repeat-y  { background-repeat: repeat-y;  }
 .bg-round     { background-repeat: round;     }
 .bg-space     { background-repeat: space;     }
+
+.bg-pos-center { background-position: center; }
+.bg-pos-top    { background-position: top;    }
+.bg-pos-bottom { background-position: bottom; }
+.bg-pos-left   { background-position: left;   }
+.bg-pos-right  { background-position: right;  }
+
+.bg-attachment-scroll { background-attachment: scroll; }
+.bg-attachment-fixed  { background-attachment: fixed;  }
+.bg-attachment-local  { background-attachment: local;  }

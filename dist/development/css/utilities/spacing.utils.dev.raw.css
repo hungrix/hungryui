@@ -269,6 +269,18 @@
 .margin-right-24 { margin-right: 6rem;         }
 .margin-right-25 { margin-right: 6.25rem;      }
 
+.padding-unset  { padding: unset;        }
+.padding-top    { padding-top: unset;    }
+.padding-bottom { padding-bottom: unset; }
+.padding-left   { padding-left: unset;   }
+.padding-right  { padding-right: unset;  }
+
+.margin-unset  { margin: unset;        }
+.margin-top    { margin-top: unset;    }
+.margin-bottom { margin-bottom: unset; }
+.margin-left   { margin-left: unset;   }
+.margin-right  { margin-right: unset;  }
+
 .gap-0  { gap: 0 !important; }
 .gap-1  { gap: 0.25rem;      }
 .gap-2  { gap: 0.5rem;       }
@@ -350,16 +362,29 @@
 .row-gap-24 { row-gap: 6rem;         }
 .row-gap-25 { row-gap: 6.25rem;      }
 
-.line-height-1    { line-height: 1 !important; }
-.line-height-1-25 { line-height: 1.25;         }
-.line-height-1-5  { line-height: 1.5;          }
-.line-height-1-75 { line-height: 1.75;         }
-.line-height-2    { line-height: 2;            }
-.line-height-2-5  { line-height: 2.5;          }
-.line-height-3    { line-height: 3;            }
-.line-height-3-5  { line-height: 3.5;          }
-.line-height-4    { line-height: 4;            }
-.line-height-5    { line-height: 5;            }
+.line-height-0-5      { line-height: 0.5;     }
+.line-height-1        { line-height: 1        }
+.line-height-1-25     { line-height: 1.25;    }
+.line-height-1-5      { line-height: 1.5;     }
+.line-height-1-75     { line-height: 1.75;    }
+.line-height-2        { line-height: 2;       }
+.line-height-2-5      { line-height: 2.5;     }
+.line-height-3        { line-height: 3;       }
+.line-height-3-5      { line-height: 3.5;     }
+.line-height-4        { line-height: 4;       }
+.line-height-5        { line-height: 5;       }
+
+.line-height-0-5-rem  { line-height: 0.5rem;  }
+.line-height-1-rem    { line-height: 1rem;    }
+.line-height-1-25-rem { line-height: 1.25rem; }
+.line-height-1-5-rem  { line-height: 1.5rem;  }
+.line-height-1-75-rem { line-height: 1.75rem; }
+.line-height-2-rem    { line-height: 2rem;    }
+.line-height-2-5-rem  { line-height: 2.5rem;  }
+.line-height-3-rem    { line-height: 3rem;    }
+.line-height-3-5-rem  { line-height: 3.5rem;  }
+.line-height-4-rem    { line-height: 4rem;    }
+.line-height-5-rem    { line-height: 5rem;    }
 
 .letter-spacing--0-05 { letter-spacing: -0.05rem;     }
 .letter-spacing--0-04 { letter-spacing: -0.04rem;     }
