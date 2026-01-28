@@ -4,8 +4,8 @@
 /* Author: Allen Charls Casul                                     */
 /* GitHub: https://github.com/hungrix/hungryui                    */
 /* License: https://github.com/hungrix/hungryui/blob/main/LICENSE */
-/* Version: 1.0.8                                                 */
-/* Build Date: 2026-01-27                                         */
+/* Version: 1.0.9                                                 */
+/* Build Date: 2026-01-28                                         */
 /* -------------------------------------------------------------- */
 
 /* ============================================================== */
@@ -25,15 +25,6 @@
 *,
 *::before,
 *::after {
-  /* Typography defaults */
-  font-family: var(--font-inter);
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  font-variant: normal;
-  font-optical-sizing: auto;
-  font-size-adjust: 100%;
-
   /* Box model + spacing reset */
   box-sizing: border-box;
   margin: 0;
@@ -59,6 +50,15 @@ body {
   background-color: var(--default-adaptive);
   overscroll-behavior-y: contain;
 
+    /* Typography defaults */
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+  font-optical-sizing: auto;
+  font-size-adjust: 100%;
+
   /* Typography rendering */
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
@@ -80,9 +80,19 @@ body {
 /* ========================================================= */
 /* Headings */
 /* ========================================================= */
-h1, h2, h3, h4 {
+summary, h2, h3, h4 {
   color: var(--title-adaptive);
   font-weight: 700;
+}
+
+details, h5, h6, p, small, q, label, caption, legend, abbr, pre {
+  color: var(--description-adaptive);
+}
+
+code {
+  font-family: var(--font-cascadia-code);
+  font-weight: 700;
+  color: var(--primary);
 }
 
 /* ========================================================= */
@@ -347,6 +357,8 @@ textarea {
   width: 100%;
   padding: 1rem;
   font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  font-weight: 500;
   background-color: var(--disabled-adaptive);
   color: var(--description-adaptive);
   border-radius: var(--radius-4);
@@ -478,7 +490,6 @@ summary {
 }
 
 details {
-  color: var(--description-adaptive);
   padding: 0.8rem 1rem;
   background-color: var(--card-adaptive);
   border-bottom: 1px solid var(--line-adaptive);
@@ -486,8 +497,6 @@ details {
 }
 
 summary {
-  font-weight: 700;
-  color: var(--title-adaptive);
   display: flex;
   justify-content: space-between;
   align-items: center;

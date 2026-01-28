@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
 
 :root {
-  --font-inter: 'Inter', system-ui, sans-serif;
-  --font-roboto: 'Roboto', system-ui, sans-serif;
-  
+  --font-inter:         'Inter', system-ui, sans-serif;
+  --font-roboto:        'Roboto', system-ui, sans-serif;
+  --font-cascadia-code: 'Cascadia Code', sans-serif;
+
   --font-size-xxs:  0.625rem;
   --font-size-xs:   0.688rem;
   --font-size-s:    0.719rem;

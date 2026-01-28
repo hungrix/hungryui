@@ -10,7 +10,7 @@ Hungry UI adds elegance and personality to your toolkit. Its playful, developerâ
 ![Github](https://img.shields.io/github/contributors/allencasul/hungryui?color=%234a4df5)
 ![Github](https://img.shields.io/github/stars/allencasul/hungryui)
 
-<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/hungrix/hungryui-official-website@master/assets/img/png/hungryui.png" alt="Hungry UI" style="max-width:100%;" width="450"></a>
+<a href="https://hungryui.com/"><img src="https://cdn.jsdelivr.net/gh/hungrix/hungryui-official-website@master/assets/img/png/hungryui.png" alt="Hungry UI" style="max-width:100%;" width="400"></a>
 
 ## Installation
 
@@ -19,7 +19,7 @@ Installing Hungry UI using NPM (Node Package Manager).
 ### NPM
 
 ```sh
-npm i hungryui@1.0.8
+npm i hungryui@1.0.9
 ```
 
 Using Hungry UI through a CDN (Content Delivery Network).
