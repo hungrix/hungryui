@@ -19,7 +19,7 @@ Installing Hungry UI using NPM (Node Package Manager).
 ### NPM
 
 ```sh
-npm i hungryui@1.0.9
+npm i hungryui@1.1.0
 ```
 
 Using Hungry UI through a CDN (Content Delivery Network).
@@ -27,7 +27,7 @@ Using Hungry UI through a CDN (Content Delivery Network).
 ### CDN
 
 ```sh
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hungrix/hungryui@master/dist/production/css/hungryui.prod.min.css" fetchpriority="high">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hungrix/hungryui@4ab783cd9fac617a3c04b7f8e145cea0f22f808f/dist/production/css/hungryui.prod.min.css" integrity="sha256-ZaBV3/xCYvY74X8HCrMlHt2QKHD7b8WOGiBYAKkQe3U=" crossorigin="anonymous" fetchpriority="high">
 ```
 
 ## Documentation
