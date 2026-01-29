@@ -4,8 +4,8 @@
 /* Author: Allen Charls Casul                                     */
 /* GitHub: https://github.com/hungrix/hungryui                    */
 /* License: https://github.com/hungrix/hungryui/blob/main/LICENSE */
-/* Version: 1.1.0                                                 */
-/* Build Date: 2026-01-28                                         */
+/* Version: 1.3.0                                                 */
+/* Build Date: 2026-01-29                                         */
 /* -------------------------------------------------------------- */
 
 /* ============================================================== */
@@ -78,9 +78,9 @@ body {
 }
 
 /* ========================================================= */
-/* Headings */
+/* Text Styling: Titles, Descriptions, and Code */
 /* ========================================================= */
-summary, h2, h3, h4 {
+summary, h1, h2, h3, h4 {
   color: var(--title-adaptive);
   font-weight: 700;
 }
@@ -90,9 +90,9 @@ details, h5, h6, p, small, q, label, caption, legend, abbr, pre {
 }
 
 code {
+  color: var(--primary);
   font-family: var(--font-cascadia-code);
   font-weight: 700;
-  color: var(--primary);
 }
 
 /* ========================================================= */
@@ -107,6 +107,7 @@ input[type='week'],
 input[type='time'],
 input[type='datetime-local'] {
   cursor: text;
+  color-scheme: light dark;
 }
 
 input[type='range'] {
@@ -133,13 +134,13 @@ input[type='range']::-webkit-slider-thumb {
   background: var(--primary);
   border-radius: var(--radius-12);
   border: none;
-  box-shadow: 0 0 0 7.5px var(--primary-translucent);
+  box-shadow: 0 0 0 7px var(--primary-translucent);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
   position: relative;
 }
 
 input[type='range']:hover::-webkit-slider-thumb {
-  box-shadow: 0 0 0 8.5px var(--primary-fade);
+  box-shadow: 0 0 0 8px var(--primary-fade);
   transform: scale(1);
 }
 
@@ -149,13 +150,13 @@ input[type='range']::-moz-range-thumb {
   background: var(--primary);
   border-radius: var(--radius-12);
   border: none;
-  box-shadow: 0 0 0 7.5px var(--primary-translucent);
+  box-shadow: 0 0 0 7px var(--primary-translucent);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
   position: relative;
 }
 
 input[type='range']:hover::-moz-range-thumb {
-  box-shadow: 0 0 0 8.5px var(--primary-fade);
+  box-shadow: 0 0 0 8px var(--primary-fade);
   transform: scale(1);
 }
 
